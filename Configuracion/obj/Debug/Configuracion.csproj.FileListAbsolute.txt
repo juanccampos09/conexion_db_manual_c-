@@ -1,0 +1,6 @@
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Configuracion\bin\Debug\Configuracion.dll
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Configuracion\bin\Debug\Configuracion.pdb
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Configuracion\obj\Debug\Configuracion.csprojAssemblyReference.cache
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Configuracion\obj\Debug\Configuracion.csproj.CoreCompileInputs.cache
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Configuracion\obj\Debug\Configuracion.dll
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Configuracion\obj\Debug\Configuracion.pdb

@@ -1,0 +1,13 @@
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\bin\Debug\Logica.dll
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\bin\Debug\Logica.pdb
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\bin\Debug\AccesoDatos.dll
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\bin\Debug\Entidades.dll
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\bin\Debug\AccesoDatos.pdb
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\bin\Debug\Entidades.pdb
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\obj\Debug\Logica.dll
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\obj\Debug\Logica.pdb
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\bin\Debug\Configuracion.dll
+C:\Users\RogStrix2018\Desktop\ejemplos c# web\crud de forma manual\conexion_bd_manual\Logica\bin\Debug\Configuracion.pdb
