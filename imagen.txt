@@ -1,0 +1,50 @@
+if(FileUpload1.PostedFile != null)
+{
+
+    //string imageFile = Path.GetFileName(FileUpload1.PostedFile.FileName);
+    //FileUpload1.SaveAs(Server.MapPath("~/Imagenes/") + imageFile);
+    //string mainConnection = ConfigurationManager.AppSettings["ConnectionString"];
+    //SqlConnection sqlConnection = new SqlConnection(mainConnection);
+
+    //try
+    //{
+    //    sqlConnection.Open();
+    //    string query = "INSERT INTO TBL (IMAGEN) VALUES (@IMAGEN)";
+    //    SqlCommand command = new SqlCommand(query, sqlConnection);
+    //    command.Parameters.AddWithValue("@IMAGEN", imageFile);
+    //    command.ExecuteNonQuery();
+    //}
+    //catch (Exception ex)
+    //{
+
+    //    System.Diagnostics.Debug.WriteLine(ex.Message);
+    //}
+
+
+    byte[] imageByteArray = new byte[] { };
+    string imageFile = Path.GetFileName(FileUpload1.PostedFile.FileName);
+    FileUpload1.SaveAs(Server.MapPath("~/Imagenes/") + imageFile);
+    //FileStream fileStream = new FileStream(Server.MapPath("~/Imagenes/") + imageFile, FileMode.Open, FileAccess.Read);
+    System.Drawing.Image temp = new Bitmap(Server.MapPath("~/Imagenes/") + imageFile);
+    MemoryStream stream = new MemoryStream();
+    temp.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg);
+    imageByteArray = stream.ToArray();
+
+    string mainConnection = ConfigurationManager.AppSettings["ConnectionString"];
+    SqlConnection sqlConnection = new SqlConnection(mainConnection);
+    SqlCommand command = new SqlCommand("SP_GUARDAR", sqlConnection);
+    command.CommandType = CommandType.StoredProcedure;
+    command.Parameters.Add("@IMAGEN", imageByteArray);
+
+    try
+    {
+        sqlConnection.Open();
+        command.ExecuteNonQuery();
+        sqlConnection.Close();
+    }
+    catch (Exception ex)
+    {
+        System.Diagnostics.Debug.WriteLine(ex.Message);
+    }
+
+}
